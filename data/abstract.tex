@@ -1,0 +1,35 @@
+% !TeX root = ../sustechthesis-example.tex
+
+% 中英文摘要和关键字
+
+\begin{abstract}
+弹性蛇形条带是一种由半圆弧条带与直线条带交替连接而成的结构。得益于其优异的可拉伸性能，该结构在柔性电子领域中被广泛用作连接部件，以实现刚性器件之间的可靠导电与信号传输。在拉伸载荷下，由于其面内弯曲刚度远大于面外弯曲刚度，因此该结构会发生面外屈曲。已有研究表明，该结构存在两种典型的屈曲模态，且具体呈现何种模态取决于结构的高度参数，然而这一现象背后的力学机理尚未得到合理解释。此外，在后屈曲阶段，我们发现该结构表现出显著的多稳态行为，但这一特性并未被系统的研究。本论文针对弹性蛇形条带的非线性力学行为，采用数值计算与实验相结合的方法，系统地探究了其在后屈曲阶段的大变形和多稳态行为，为其在柔性电子设备中的优化设计和工程应用提供了重要的理论基础。本文的主要研究内容如下：
+\begin{enumerate}
+	\item 基于动力学稳定性判据，提出了一种适用于细长杆结构稳定性分析的数值判定方法。该方法通过求解特征值问题来判定结构的稳定性，为蛇形条带结构的稳定性分析提供了有效的数值工具。
+	\item 采用基尔霍夫弹性杆理论，将蛇形结构建模为一个多段边界值问题。利用数值延拓工具包COCO求解该边值问题，并跟踪结构在拉伸载荷下的平衡路径。通过分岔和稳定性分析，系统研究了蛇形结构在后屈曲阶段的非线性行为，结果表明：单个单元蛇形条带中屈曲模态的交换是由多重特征值分岔及其诱导出的二次分岔引起的，这些二次分岔点的出现解释了稳定性交换的机理；同时，利用离散弹性杆模型详细研究了该结构的多稳态特性。
+	\item 在分岔分析的基础上，通过优化结构几何参数实现了对各类分岔点位置和顺序的精确调控，进而有效控制了结构的后屈曲行为。优化结果表明：通过优化单个单元蛇形结构的厚度分布，可有效控制屈曲模态交换的临界高度及临界载荷；通过调节双单元蛇形结构中直条带段的高度，可实现前两阶屈曲模态的顺序交换；以三单元蛇形结构为例，验证了通过调控各单元厚度可有效影响结构屈曲构形。
+\end{enumerate}
+
+
+  % 关键词用“英文逗号”分隔，输出时会自动处理为正确的分隔符
+  \thusetup{
+    keywords = {蛇形结构,多重特征值分岔,结构多稳态,后屈曲行为,结构优化},
+  }
+\end{abstract}
+
+\begin{abstract*}
+	
+Serpentine structures consisting of straight and circular strips have garnered attention as potential designs for flexible electronics due to their remarkable stretchability. This structure is widely employed as interconnects to ensure reliable electrical conduction and signal transmission between rigid components. Upon stretching, serpentine strips exhibit out-of-plane buckling owing to its significantly higher in-plane bending stiffness compared to out-of-plane bending stiffness.Previous studies have identified two distinct buckling modes in this structure, with the specific mode selection depending on the height of the structure. However, the underlying mechanical principles governing this mode selection behavior remain poorly understood. Furthermore, the structure demonstrates remarkable multi-stability in the post-buckling regime, which have not been systematically investigated.This study focuses on nonlinear mechanical characteristics exhibited by the serpentine structures. Through a combination of numerical simulations and experimental investigations, we systematically explore its mechanical behavior in the post-buckling regime, providing a fundamental theoretical basis for its optimal design and engineering applications in flexible electronic devices. The main research contents of this paper are as follows:
+\begin{enumerate}
+	\item Based on the dynamic stability criterion, a numerical method has been developed for stability analysis of slender structures. This method determines structural stability by solving eigenvalue problems, providing an effective numerical tool for stability analysis of serpentine structures.
+	\item By employing Kirchhoff rod theory, the serpentine structure is modeled as a multi-segment boundary value problem. The boundary value problem is solved using the numerical continuation package COCO, allowing for the tracking of the structure's equilibrium path under tensile loading. Through combined bifurcation analysis and stability analysis, the nonlinear behavior of the serpentine structures in the post-buckling regime is systematically investigated. The results reveal that the exchange of buckling modes in a single-cell serpentine strips is induced by double-eigenvalue bifurcations and their associated secondary bifurcation points, with the emergence of these secondary bifurcation points explaining the mechanism of stability exchange. Furthermore, the multi-stability of the structure is thoroughly investigated using the discrete elastic rod model.
+	\item Based on the established bifurcation analysis framework, optimization of structural geometric parameters enables precise regulation of bifurcation point locations and their sequential order, which consequently facilitates effective control over the evolutionary trajectory of the structure's post-buckling behavior. The optimization results demonstrate that: (1) by optimizing the thickness distribution of single-cell serpentine structures, the critical height and critical load for buckling mode exchange can be effectively controlled; (2) adjusting the height of straight segments in double-cell serpentine structures enables sequential exchange of the first two buckling modes; (3) using a triple-cell serpentine structure as an example, it is verified that modulating the thickness of individual units can significantly influence the structural buckling configuration.
+\end{enumerate}
+
+
+
+  % Use comma as seperator when inputting
+  \thusetup{
+    keywords* = {serpentine strips,double-eigenvalue bifurcation,multi-stability,post-buckling behavior,structural optimization},
+  }
+\end{abstract*}

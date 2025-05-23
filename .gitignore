@@ -1,0 +1,20 @@
+# LaTeX 临时文件
+*.aux
+*.log
+*.out
+*.toc
+*.lof
+*.lot
+*.bbl
+*.blg
+*.synctex.gz
+*.fls
+*.fdb_latexmk
+
+# 编译生成的 PDF（可选）
+*.pdf
+
+# 编辑器临时文件
+*.swp
+*~
+.DS_Store  # macOS 系统文件
